@@ -8,7 +8,7 @@
     >Projeto densenvolvido para demonstrar o uso das tecnologias Java(JAX-RS) usando jersey com restfull no backend e o consumo feito a partir do JavaScript com  XML HttpRequest.
 
 ## Tecnologias
-- **Desenvolvimento**
+- **Desenvolvimento**  
     O desenvolvimento do projeto é a partir do Java para o back end e JavaScript para o front end.     
     As Rest são definidas atraves do Jersey.  
     A arquitetura padrão MVC com pacotes definidos para : conexão com banco, as classes(entity), camada de modelo com as DAO (Data Object Access), camada de controle com as services para controle das APIRestFull e com os testes unitários com o Junit 5.  
