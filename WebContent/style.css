@@ -1,0 +1,135 @@
+body {
+  background: #fff;
+  color: #666;
+  font-size: 1.1em;
+}
+
+a {
+  color: #444;
+  text-decoration: none;
+  text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+}
+
+a:hover {
+  color: #44666D;
+}
+
+h1 a {
+  display: inline-block;
+  color: #171617;
+}
+
+.limiter {
+  margin: 0 auto;
+  max-width: 600px;
+  text-align: center;
+}
+
+ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.display {
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  border: solid 1px #eee;
+}
+
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+
+}
+
+#customers td,
+#customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+table {
+  width: 80%;
+}
+
+
+
+/*-----------------BUSCA----------------------------------- */
+
+
+.search{
+position: absolute;
+right:10%;
+display: inline;
+}
+
+
+
+
+
+/*-----------------Tabelas----------------------------------- */
+#customers tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#customers tr:hover {
+  background-color: #ddd;
+}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4675cb;
+  color: white;
+}
+
+
+/*-----------------Botões----------------------------------- */
+.buttonUpdate {
+  background-color: white;
+  color: black;
+  border: 2px solid #4CAF50;
+  max-height: 30%;
+  max-width: 40%;
+}
+
+.buttonUpdate:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.buttonDelete {
+  background-color: white;
+  color: black;
+  border: 2px solid #ff2200;
+  max-height: 30%;
+  max-width: 40%;
+}
+
+.buttonDelete:hover {
+  background-color: #ff2200;
+  color: white;
+}
+
+.buttonCreate {
+  background-color: white;
+  color: black;
+  border: 2px solid #03a1f6;
+  max-width: 35%;
+  max-height: 20%;
+  position: absolute;
+  left: 10%;
+  display: inline;
+
+}
+
+.buttonCreate:hover {
+  background-color: #03a1f6;
+  color: white;
+}
+
+
+
+

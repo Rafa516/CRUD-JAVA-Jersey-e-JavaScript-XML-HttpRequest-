@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+
+  <title>Setores Cadastrados</title>
+
+  <link rel="stylesheet" type="text/css" href="../style.css">
+
+</head>
+
+<body>
+ 
+  <center>
+    <h1>Setores Cadastrados</h1>
+    <a href="../index.html" > Voltar</a><br><br>
+  </center>
+  <div class="search" >
+    <form  >
+      <input placeholder="Digite o nome do Setor" type="search" id="busca_nome" name="">
+      <input  value="Buscar" onclick="buscarSetor()" type="button">
+    </form>
+  </div>
+
+  <center>
+    <button class="button buttonCreate" onclick="alertCreateSetor()">Cadastrar Setor</button><br><br>
+
+    <table id="customers">
+      <thead>
+        <tr>
+          <th>
+            <center>ID</center>
+          </th>
+          <th>
+            <center>Nome</center>
+          </th>
+          <th>
+            <center>Alterar/Excluir</center>
+          </th>
+        </tr>
+
+      </thead>
+      <tbody id="tabela">
+      </tbody>
+    </table>
+</body>
+</center>
+
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.16/dist/sweetalert2.all.min.js"></script>
+<script type="text/javascript" src="../resources/js/GET.js"></script>
+<script type="text/javascript" src="../resources/js/POST.js"></script>
+<script type="text/javascript" src="../resources/js/DELETE.js"></script>
+<script type="text/javascript" src="../resources/js/PUT.js"></script>
+
+<script>listaSetores()</script>
+
+
+
+</body>
+
+</html>
